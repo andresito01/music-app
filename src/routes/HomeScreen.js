@@ -17,7 +17,7 @@ const HomeScreen = ({ token, setToken }) => {
         <Login token={token} setToken={setToken} />
       </div>
       <div className="headerContainer">
-        <h1 className="header">Home Page</h1>
+        <h1 className="header">Automated Spotify Playlist Maker</h1>
       </div>
       {!token ? (
         <div className="lockMenuContainer">
